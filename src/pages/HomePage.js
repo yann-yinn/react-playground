@@ -1,10 +1,10 @@
 import React from "react";
-import MainLayout from "../layouts/MainLayout";
+import DefaultLayout from "../layouts/DefaultLayout";
 
 export default function() {
   return (
-    <MainLayout>
+    <DefaultLayout>
       <div>I am the homepage !</div>
-    </MainLayout>
+    </DefaultLayout>
   );
 }

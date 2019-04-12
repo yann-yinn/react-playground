@@ -10,7 +10,6 @@ class App extends Component {
       <Router>
         <Route path="/" exact component={HomePage} />
         <Route path="/books" exact component={BookListPage} />
-        <Route />
       </Router>
     );
   }
