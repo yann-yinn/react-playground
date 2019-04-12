@@ -25,7 +25,7 @@ function useQuery({ query, variables, options = {} }) {
       .catch(error => {
         updateResults({ error: error.message });
       });
-  }, [variables.title]);
+  }, [variables]);
   return results;
 }
 
