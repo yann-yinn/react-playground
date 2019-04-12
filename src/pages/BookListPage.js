@@ -19,7 +19,7 @@ function useQuery({ query, variables, options = {} }) {
         variables
       })
       .then(result => {
-        updateResults({ loading: false });
+        result.loading = false;
         updateResults(result);
       })
       .catch(error => {
