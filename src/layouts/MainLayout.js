@@ -8,6 +8,7 @@ const styles = {
     height: "100vh"
   },
   nav: {
+    padding: "1rem",
     background: "white",
     displayType: "none",
     display: "flex",
@@ -25,12 +26,12 @@ export default function LayoutMain({ children }) {
         </div>
         <div> | </div>
         <div>
-          <Link to="/films">Films</Link>
+          <Link to="/books">Books</Link>
         </div>
       </nav>
 
       <div style={styles.container}>
-        <div style={{ padding: "10rem" }}>{children}</div>
+        <div style={{ padding: "2rem" }}>{children}</div>
       </div>
     </div>
   );

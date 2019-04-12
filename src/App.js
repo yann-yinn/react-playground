@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import FilmListPage from "./pages/FilmListPage";
+import BookListPage from "./pages/BookListPage";
 import HomePage from "./pages/HomePage";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Router>
         <Route path="/" exact component={HomePage} />
-        <Route path="/films" exact component={FilmListPage} />
+        <Route path="/books" exact component={BookListPage} />
       </Router>
     );
   }
